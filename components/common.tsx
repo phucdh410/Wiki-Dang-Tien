@@ -62,3 +62,44 @@ export const CRecipe = ({
     </div>
   );
 };
+
+interface IConsumptionRecoveryProps {
+  health: number;
+  hunger: number;
+  sanity: number;
+}
+
+export const CConsumptionRecovery = ({
+  health,
+  hunger,
+  sanity,
+}: IConsumptionRecoveryProps) => {
+  return (
+    <div className="flex flex-row gap-5 items-center">
+      <div className="flex flex-row items-center gap-1">
+        <span className="text-lg font-medium">{hunger}</span>
+        <img
+          src="https://static.wikia.nocookie.net/dont-starve-game/images/4/48/Hunger_Meter.png"
+          alt=""
+          className="max-w-7"
+        />
+      </div>
+      <div className="flex flex-row items-center gap-1">
+        <span className="text-lg font-medium">{sanity}</span>
+        <img
+          src="https://static.wikia.nocookie.net/dont-starve-game/images/2/2f/Sanity_Meter.png"
+          alt=""
+          className="max-w-7"
+        />
+      </div>
+      <div className="flex flex-row items-center gap-1">
+        <span className="text-lg font-medium">{health}</span>
+        <img
+          src="https://static.wikia.nocookie.net/dont-starve-game/images/f/f3/HealthMeter.png"
+          alt=""
+          className="max-w-7"
+        />
+      </div>
+    </div>
+  );
+};

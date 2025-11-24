@@ -7,6 +7,7 @@ const MENUS = [
   { name: "Characters", href: "/" },
   { name: "Mysterious Items", href: "/mysterious-items" },
   { name: "Exclusive Weapons", href: "/exclusive-weapons" },
+  { name: "Sacred Tree", href: "/sacred-tree" },
   { name: "Characters", href: "/characters" },
   { name: "Training Ground", href: "/training-ground" },
 ];
