@@ -12,7 +12,7 @@ interface ITitleProps {
 export const CTitle = ({ label = "", image }: ITitleProps) => {
   return (
     <div className="flex flex-row gap-3 items-center">
-      {image && <img src={image} alt="" className="max-w-16" />}
+      {image && <img src={image} alt="" className="max-w-16 max-h-[100px]" />}
       <h5 className="font-semibold text-xl">{label}</h5>
     </div>
   );

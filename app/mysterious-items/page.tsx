@@ -190,7 +190,7 @@ export default function MysteriousItems() {
                 quantity: 15,
               },
               {
-                name: "Gold",
+                name: "Gold Nugget",
                 image: "https://dontstarve.wiki.gg/images/Gold_Nugget.png",
                 quantity: 10,
               },
