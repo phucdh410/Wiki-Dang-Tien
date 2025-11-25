@@ -10,10 +10,7 @@ export default function ExclusiveWeapons() {
   return (
     <div className="space-y-14">
       <div className="space-y-10">
-        <CTitle
-          label="Ruyi Jingu Bang"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1727764220455_152_gfEddZX7YC.png"
-        />
+        <CTitle label="Ruyi Jingu Bang" image="/weapons/weapon-1.png" />
 
         <div>
           <CSubtitle label="Sun Wukong's exclusive magic weapon" />
@@ -53,7 +50,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="The fragrance of plum blossoms remains unchanged."
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1726322933732_152_dwqoKHMtZD.png"
+          image="/weapons/weapon-2.png"
         />
 
         <div>
@@ -79,7 +76,7 @@ export default function ExclusiveWeapons() {
         <div>
           <CSubtitle
             label="Soul-Nourishing Jade"
-            image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1726322883325_152_szwz4M3tY1.png"
+            image="/weapons/weapon-3.png"
           />
           <CDivider />
           <CRecipe
@@ -145,10 +142,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Water Dragon Chant"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175192872_152_jOCBxuUIix.png"
-        />
+        <CTitle label="Water Dragon Chant" image="/weapons/weapon-4.png" />
 
         <div>
           <CSubtitle label="Dragon Prince's Exclusive Magic Weapon" />
@@ -195,7 +189,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Overview of Magical Items"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1714810059684_152_NcwlUgVK9c.png"
+          image="/weapons/overview.png"
         />
 
         <div>
@@ -246,10 +240,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Hunyuan Axe"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175227884_152_EUWCBJjjkZ.png"
-        />
+        <CTitle label="Hunyuan Axe" image="/weapons/weapon-5.png" />
 
         <div>
           <CSubtitle label="Woody's exclusive weapon" />
@@ -290,7 +281,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Hibiscus Mystery Umbrella"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175280689_152_iMwhB5kIb9.png"
+          image="/weapons/weapon-6.png"
         />
 
         <div>
@@ -331,10 +322,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Burning Annihilation"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175300003_152_STaw35oXxf.png"
-        />
+        <CTitle label="Burning Annihilation" image="/weapons/weapon-7.png" />
 
         <div>
           <CSubtitle label="Maxwell's exclusive magic weapon" />
@@ -373,10 +361,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Golden Scales"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175313515_152_n2juwb5DO8.png"
-        />
+        <CTitle label="Golden Scales" image="/weapons/weapon-8.png" />
 
         <div>
           <CSubtitle label="Wurt's exclusive magic weapon" />
@@ -417,10 +402,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Red Dragon"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175327636_152_mutnpkrCKT.png"
-        />
+        <CTitle label="Red Dragon" image="/weapons/weapon-9.png" />
 
         <div>
           <CSubtitle label="Wigfrid's exclusive artifact" />
@@ -459,10 +441,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Star Sword"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175342400_152_PK7Q9d0TdS.png"
-        />
+        <CTitle label="Star Sword" image="/weapons/weapon-10.png" />
 
         <div>
           <CSubtitle label="WX-78's Exclusive Magic Item" />
@@ -504,7 +483,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Thousand Tribulations Blade"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175365818_152_MF3aW2plps.png"
+          image="/weapons/weapon-11.png"
         />
 
         <div>
@@ -544,10 +523,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Qingyue"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175381347_152_w3BhhqZmuV.png"
-        />
+        <CTitle label="Qingyue" image="/weapons/weapon-12.png" />
 
         <div>
           <CSubtitle label="Wanda's exclusive magic weapon" />
@@ -590,10 +566,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Endless Divine Sword"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715175398529_152_8EH8zKnBms.png"
-        />
+        <CTitle label="Endless Divine Sword" image="/weapons/weapon-13.png" />
 
         <div>
           <CSubtitle label="Wormwood's Exclusive Magic Item" />
@@ -634,10 +607,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Come Out"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715698346330_152_z0oJaLM80Y.png"
-        />
+        <CTitle label="Come Out" image="/weapons/weapon-14.png" />
 
         <div>
           <CSubtitle label="Wolfgang's signature weapon" />
@@ -677,7 +647,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Gold-slicing Red Bone Knife"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1715699512165_152_YBbCRZX0a6.png"
+          image="/weapons/weapon-15.png"
         />
 
         <div>
@@ -719,7 +689,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Apricot Blossoms in Light Rain"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716380104055_152_ihqQf57gFb.png"
+          image="/weapons/weapon-16.png"
         />
 
         <div>
@@ -770,10 +740,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Sword of Forgetfulness"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716380719155_152_9jX7Xd1PYw.png"
-        />
+        <CTitle label="Sword of Forgetfulness" image="/weapons/weapon-17.png" />
 
         <div>
           <CSubtitle label="Wortox's Exclusive Magic Item" />
@@ -811,10 +778,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Sword of No Form"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716381145043_152_RyTnkUbLqM.png"
-        />
+        <CTitle label="Sword of No Form" image="/weapons/weapon-18.png" />
 
         <div>
           <CSubtitle label="Wilson's exclusive magic weapon" />
@@ -863,10 +827,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Ink Stain"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716382623592_152_gBHiXFfZL9.png"
-        />
+        <CTitle label="Ink Stain" image="/weapons/weapon-19.png" />
 
         <div>
           <CSubtitle label="Wickerbottom's exclusive artifact" />
@@ -905,10 +866,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Reverse Dart"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716382861283_152_wo76LIiLIf.png"
-        />
+        <CTitle label="Reverse Dart" image="/weapons/weapon-20.png" />
 
         <div>
           <CSubtitle label="Webber's exclusive magic weapon" />
@@ -949,7 +907,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Dragon Soul Asking Hammer"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716383583938_152_bkDqKNWW0w.png"
+          image="/weapons/weapon-21.png"
         />
 
         <div>
@@ -991,7 +949,7 @@ export default function ExclusiveWeapons() {
       <div className="space-y-10">
         <CTitle
           label="Heavenly Hunt Devouring Spear"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716383886391_152_XeUdvExbiB.png"
+          image="/weapons/weapon-22.png"
         />
 
         <div>
@@ -1031,10 +989,7 @@ export default function ExclusiveWeapons() {
       <hr className="border-dashed" />
 
       <div className="space-y-10">
-        <CTitle
-          label="Golden Cudgel"
-          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1716384511956_152_uEKv4ZnNQ0.png"
-        />
+        <CTitle label="Golden Cudgel" image="/weapons/weapon-23.png" />
 
         <div>
           <CSubtitle label="Monkey's exclusive magic weapon" />
