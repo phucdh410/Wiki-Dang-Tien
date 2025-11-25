@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import React, { ReactNode } from "react";
 
 export const CDivider = () => {
   return (
@@ -29,37 +30,88 @@ export const CSubtitle = ({ label = "", image }: ITitleProps) => {
   );
 };
 
+export const CMinititle = ({ label = "", image }: ITitleProps) => {
+  return (
+    <div className="flex flex-row items-center gap-3">
+      {image && <img src={image} alt="" className="max-w-8" />}
+      <h5 className="font-medium text-base">{label}</h5>
+    </div>
+  );
+};
 interface IIngredient {
   quantity: number;
   image: string;
   name: string;
+  subs?: { name: string; image: string }[];
 }
 
 export const CRecipe = ({
   ingredients = [],
+  customTitle,
+  className,
 }: {
   ingredients: IIngredient[];
+  customTitle?: ReactNode;
+  className?: string;
 }) => {
   return (
-    <div className="flex flex-row items-start gap-5">
-      <p className="px-4 mb-1 font-medium flex flex-row items-center gap-1.5">
-        <img src="/recipe.png" alt="" className="max-w-8" />
-        Recipe:
-      </p>
+    <div className={classNames("flex flex-row items-start gap-5", className)}>
+      {customTitle ? (
+        customTitle
+      ) : (
+        <p className="px-4 mb-1 font-medium flex flex-row items-center gap-1.5">
+          <img src="/recipe.png" alt="" className="max-w-8" />
+          Recipe:
+        </p>
+      )}
       <ul className="text-sm font-medium text-heading bg-neutral-primary-soft border border-default rounded-base">
-        {ingredients.map((ingredient) => (
-          <li
-            key={ingredient.name}
-            className="w-full
-            flex flex-row items-center gap-3 px-4 py-2 border-b border-default rounded-t-lg"
-          >
-            <img src={ingredient.image} alt="" className="max-w-10" />
-            <span className="font-bold shrink-0 w-8 text-center">
-              {ingredient.quantity}x
-            </span>
-            <span>{ingredient.name}</span>
-          </li>
-        ))}
+        {ingredients.map((ingredient) =>
+          Boolean(ingredient.subs) ? (
+            <li
+              key={ingredient.name}
+              className="w-full border-b border-default"
+            >
+              <div className="flex flex-row items-center gap-3 px-4 py-2 ">
+                <img src={ingredient.image} alt="" className="max-w-10" />
+                <span className="font-bold shrink-0 w-8 text-center">
+                  {ingredient.quantity}x
+                </span>
+                <span>{ingredient.name}</span>
+              </div>
+              {ingredient.subs?.map((sub) => (
+                <React.Fragment key={ingredient.name}>
+                  <div className="flex flex-row items-center justify-center gap-2">
+                    <span className="w-[25%] h-0.5 bg-gray-200"></span>
+                    <span>Or</span>
+                    <span className="w-[25%] h-0.5 bg-gray-200"></span>
+                  </div>
+                  <div
+                    key={sub.name}
+                    className="flex flex-row items-center gap-3 px-4 py-2 "
+                  >
+                    <img src={sub.image} alt="" className="max-w-10" />
+                    <span className="font-bold shrink-0 w-8 text-center">
+                      {ingredient.quantity}x
+                    </span>
+                    <span>{sub.name}</span>
+                  </div>
+                </React.Fragment>
+              ))}
+            </li>
+          ) : (
+            <li
+              key={ingredient.name}
+              className="w-full
+            flex flex-row items-center gap-3 px-4 py-2 border-b border-default"
+            >
+              <img src={ingredient.image} alt="" className="max-w-10" />
+              <span className="font-bold shrink-0 w-8 text-center">
+                {ingredient.quantity}x
+              </span>
+              <span>{ingredient.name}</span>
+            </li>
+          )
+        )}
       </ul>
     </div>
   );
