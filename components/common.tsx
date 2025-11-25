@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 export const CDivider = () => {
   return (
     <div className="h-0.5 mt-2 mb-4 rounded-3xl bg-[linear-gradient(to_right,#123541,#9E9E9E91,transparent)] w-[85%]"></div>
@@ -101,5 +103,26 @@ export const CConsumptionRecovery = ({
         />
       </div>
     </div>
+  );
+};
+
+export const CList = ({
+  list = [],
+  className,
+}: {
+  list: string[];
+  className?: string;
+}) => {
+  return (
+    <ul
+      className={classNames(
+        "list-disc text-gray-800 pl-6 marker:text-xl leading-9",
+        className
+      )}
+    >
+      {list.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
   );
 };

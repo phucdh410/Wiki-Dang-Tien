@@ -1,4 +1,10 @@
-import { CDivider, CRecipe, CSubtitle, CTitle } from "@/components/common";
+import {
+  CDivider,
+  CList,
+  CRecipe,
+  CSubtitle,
+  CTitle,
+} from "@/components/common";
 
 export default function MysteriousItems() {
   return (
@@ -12,22 +18,14 @@ export default function MysteriousItems() {
         <div>
           <CSubtitle label="Base" />
           <CDivider />
-          <ul className="list-disc pl-6 marker:text-xl">
-            <li>The Heavenly Mystery House contains a huge, private space.</li>
-            <li>
-              The Heavenly Secrets House is created by placing the Heavenly
-              Secrets Scroll.
-            </li>
-            <li>
-              Once a Heavenly Mystery House is placed, the Heavenly Mystery
-              Scroll will automatically convert into a Heavenly Mystery Token,
-              which can then be used to reclaim the Heavenly Mystery House.
-            </li>
-            <li>
-              Each person&apos;s Heavenly Secrets House has its own independent
-              space.
-            </li>
-          </ul>
+          <CList
+            list={[
+              "The Heavenly Mystery House contains a huge, private space.",
+              "The Heavenly Secrets House is created by placing the Heavenly Secrets Scroll.",
+              "Once a Heavenly Mystery House is placed, the Heavenly Mystery Scroll will automatically convert into a Heavenly Mystery Token, which can then be used to reclaim the Heavenly Mystery House.",
+              "Each person's Heavenly Secrets House has its own independent space.",
+            ]}
+          />
         </div>
         <div>
           <CSubtitle
@@ -66,12 +64,11 @@ export default function MysteriousItems() {
             image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1717250001919_152_Ez0LMFIVsC.png"
           />
           <CDivider />
-          <ul className="list-disc pl-6 marker:text-xl">
-            <li>
-              Used for recycling the Heavenly Secrets House, generated when the
-              Heavenly Secrets Scroll is placed.
-            </li>
-          </ul>
+          <CList
+            list={[
+              "Used for recycling the Heavenly Secrets House, generated when the Heavenly Secrets Scroll is placed.",
+            ]}
+          />
         </div>
       </div>
       <hr className="border-dashed" />
@@ -104,14 +101,12 @@ export default function MysteriousItems() {
             ]}
           />
         </div>
-        <ul className="list-disc pl-6 marker:text-xl">
-          <li>Durability can be restored at night.</li>
-          <li>
-            It has a ripening effect on both crops and crabapple trees. Each use
-            consumes 100% of the durability of crabapple trees and 50% of the
-            durability of crops.
-          </li>
-        </ul>
+        <CList
+          list={[
+            "Durability can be restored at night.",
+            "It has a ripening effect on both crops and crabapple trees. Each use consumes 100% of the durability of crabapple trees and 50% of the durability of crops.",
+          ]}
+        />
       </div>
       <hr className="border-dashed" />
       <div className="space-y-10">
@@ -146,12 +141,11 @@ export default function MysteriousItems() {
               },
             ]}
           />
-          <ul className="list-disc pl-6 marker:text-xl mt-4">
-            <li>
-              Right click to summons a Soul Wolf; each summon consumes 5
-              Low-grade Spirit Stones.
-            </li>
-          </ul>
+          <CList
+            list={[
+              "Right click to summons a Soul Wolf; each summon consumes 5 Low-grade Spirit Stones.",
+            ]}
+          />
         </div>
         <div>
           <CSubtitle
@@ -159,12 +153,11 @@ export default function MysteriousItems() {
             image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1717243048281_152_KrJoWJXsDO.png"
           />
           <CDivider />
-          <ul className="list-disc pl-6 marker:text-xl mt-4">
-            <li>
-              The Soul Wolf will exist for half a day and can help players walk
-              on water and perform a certain degree of teleportation.
-            </li>
-          </ul>
+          <CList
+            list={[
+              "The Soul Wolf will exist for half a day and can help players walk on water and perform a certain degree of teleportation.",
+            ]}
+          />
         </div>
       </div>
       <hr className="border-dashed" />
@@ -205,34 +198,16 @@ export default function MysteriousItems() {
         <div>
           <CSubtitle label="Spiritual Treasure Abilities" />
           <CDivider />
-          <ul className="list-disc pl-6 marker:text-xl">
-            <li>
-              It helps cultivators escape when they are on the verge of death,
-              but it requires a certain amount of spirit stones. The higher the
-              cultivation level, the more spirit stones are required.
-            </li>
-            <li>
-              When a character is in the Qi Refining stage, 30 low-grade spirit
-              stones are consumed when escaping.
-            </li>
-            <li>
-              When a character is in the Foundation Establishment stage, 50
-              low-grade spirit stones are consumed when escaping.
-            </li>
-            <li>
-              When a character is in the Core Formation stage, 1 mid-grade
-              spirit stone is consumed when escaping.
-            </li>
-            <li>
-              When a character is in the Nascent Soul stage, escaping consumes 2
-              mid-grade spirit stones.
-            </li>
-            <li>
-              When a character is in the Nascent Soul stage, escaping consumes 3
-              mid-grade spirit stones.
-            </li>
-            <li>CD is valid for 3 days.</li>
-          </ul>
+          <CList
+            list={[
+              "It helps cultivators escape when they are on the verge of death, but it requires a certain amount of spirit stones. The higher the cultivation level, the more spirit stones are required.",
+              "When a character is in the Qi Refining stage, 30 low-grade spirit stones are consumed when escaping.",
+              "When a character is in the Foundation Establishment stage, 50 low-grade spirit stones are consumed when escaping.",
+              "When a character is in the Core Formation stage, 1 mid-grade spirit stone is consumed when escaping.",
+              "When a character is in the Nascent Soul stage, escaping consumes 2 mid-grade spirit stones.",
+              "CD is valid for 3 days.",
+            ]}
+          />
         </div>
       </div>
     </div>
