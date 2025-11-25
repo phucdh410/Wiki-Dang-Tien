@@ -698,6 +698,186 @@ export default function RealmOfSupernaturalPower() {
           </ol>
         </div>
       </div>
+
+      <hr className="border-dashed" />
+
+      <div className="space-y-10">
+        <CTitle
+          label="Body Tempering Realm"
+          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1717251520153_152_LYomUnDuOB.png"
+        />
+        <div>
+          <CSubtitle label="Base" />
+          <CDivider />
+          <CList
+            list={[
+              "The Body Tempering Realm is divided into Meridian Opening, Bone Tempering, Internal Organ Refining, Yuanwu, Divine Power, Void Breaking, and Returning to Origin. Each realm is divided into 15 levels, but the Returning to Origin stage is only open for the first level for the time being.",
+              "Each level will provide players with a certain increase in attack power and maximum health.",
+              "Players gain experience from the death of any creature within a 28-radius radius of the player. Experience is not reduced when multiple players are present.",
+            ]}
+          />
+        </div>
+      </div>
+
+      <hr className="border-dashed" />
+
+      <div className="space-y-10">
+        <CTitle
+          label="Primal Inclination and the Demon Spirit Sacred Body System"
+          image="http://39.107.158.116/api/image?type=general&sectionId=24&name=1717255450208_152_F9aYoTsCPq.png"
+        />
+        <div>
+          <CSubtitle label="Base" />
+          <CDivider />
+          <CList
+            list={[
+              "Origin Tilt is a separate switch in the Monster Enhancement section's module settings interface, labeled 'Realm of All Things,' which controls whether it's enabled or disabled.",
+              'Every living being has an "Original Inclination" system, which is the original spiritual energy tendency of the living being, namely metal, wood, water, fire, earth, Wuji, and Hunyuan. Furthermore, the original spiritual energy of a living being has a degree of tendency, which is divided into "weak", "normal", "strong" and "extreme".',
+              'Creatures with an inclination level of "Extreme" will simultaneously possess three supernatural abilities: "Weak", "Normal", and "Strong".',
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Earth attribute corresponding supernatural power" />
+          <CDivider />
+          <CList
+            list={[
+              'Earth attribute "weak" corresponding supernatural power: If a normal attack hits a cultivator, it will create a ground pit and have a slowing effect.',
+              "Earth attribute (normal) corresponding divine ability: Generates large-area sand and gravel area damage.",
+              'Earth attribute "Strong" corresponding divine ability: Forms a barrier, but after a few seconds these stones shatter, causing an area-of-effect damage at the center.',
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Wood attribute corresponds to supernatural powers" />
+          <CDivider />
+          <CList
+            list={[
+              'The corresponding supernatural power of the Wood attribute "Weak": Each time an attack hits a cultivator, it summons vines to launch an attack.',
+              "Wood attribute (normal) corresponding supernatural power: Spores on the cultivator's head explode, leaving behind a poisonous cloud, which is released periodically.",
+              'The Wood attribute "Strong" corresponds to the following ability: It generates spore caps and throws mushroom bombs at the player. This ability is triggered periodically.',
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Water attribute corresponding supernatural power" />
+          <CDivider />
+          <CList
+            list={[
+              `The corresponding supernatural power for the water attribute "weak" is: Attacks that inflict a freezing effect on cultivators.`,
+              `Water attribute (normal) corresponding divine ability: The attack will create an icy ground at the cultivator's location.`,
+              `The Water attribute "Strong" corresponds to the following divine ability: It generates ice and fire in all directions. This divine ability is triggered by a counter, that is, it is triggered once every 3 attacks.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Fire attribute corresponding supernatural power" />
+          <CDivider />
+          <CList
+            list={[
+              `Fire attribute "weak" corresponding supernatural power: If a normal attack hits a cultivator, it will cause an explosion and ignite the target.`,
+              `Fire attribute (normal) corresponding supernatural power: When attacking, it generates fire and wind.`,
+              `The Fire attribute "Strong" corresponds to the following divine ability: It creates three fire-based area-of-effect attacks. This divine ability is triggered by a counter, meaning it is triggered once every 3 attacks.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Metal element corresponds to supernatural powers" />
+          <CDivider />
+          <CList
+            list={[
+              `Metal element "weak" corresponding supernatural power: When attacking, fires a laser ball at the cultivator.`,
+              `Metal Attribute (Normal) Corresponding Divine Ability: Releases two types of lasers in succession. This skill is triggered by a count, meaning it is triggered once every 3 attacks.`,
+              `The Metal element ("Strong") corresponds to the following supernatural power: Summoning the Laser Eye and the Demonic Flame Eye. It disappears after charging at the cultivator three times consecutively.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="The corresponding supernatural power of the Primordial Attribute:" />
+          <CDivider />
+          <CList
+            list={[
+              `The corresponding supernatural power of the mixed attribute "weak" is: when attacking, release bone spike skills centered on the monster.`,
+              `The corresponding supernatural power of the mixed-element attribute "normal" is: It will continuously spew out a large ball of black blood, which will splatter around and create large shadow tentacles.`,
+              `The corresponding supernatural power of the mixed attribute "Strong" is: periodically summoning a shadow chariot, with two shadow bishops attacking the monk.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="The corresponding supernatural power of the Wuji attribute:" />
+          <CDivider />
+          <CList
+            list={[
+              `The corresponding supernatural power for the Wuji attribute "Weak": Attacks will stack hypnotic value on cultivators.`,
+              `The corresponding divine ability for the Wuji attribute "Normal" is: Summons two moon spirit phantoms within a certain range to assist in battle.`,
+              `The Wuji attribute "Strong" corresponds to the following supernatural power: It creates a circular area marked with blue particles. When a cultivator is within this area, phantoms and large phantoms will appear nearby and collide with the supernatural power. This supernatural power is triggered periodically.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="World Upgrade" />
+          <CDivider />
+          <CList
+            list={[
+              `When a player reaches the Nascent Soul stage, the world will upgrade. After the world upgrades, monster attacks and elemental tilts will deal additional divine sense damage, which can penetrate armor.`,
+              `After the world is upgraded, some monsters will even possess a demonic spirit body, making them even more unfathomable.`,
+              `At this time, players who have not yet reached the Core Formation stage have a chance to trigger Immortal Lord's assistance when they attack.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Demon Spirit Holy Body" />
+          <CDivider />
+          <CList
+            list={[
+              `When the world is upgraded, monsters will have a stronger primal tilt, and some creatures will possess several sacred bodies.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Demon Ancestor Reincarnation:" />
+          <CDivider />
+          <CList
+            list={[
+              `When its health drops below 30%, it will summon an armored bear badger to assist in battle. When its health drops below 25%, it will summon a crystal cyclops giant deer to assist in battle.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Innate Dao Body:" />
+          <CDivider />
+          <CList
+            list={[
+              `This monster will possess an additional hidden primal tilt.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Ancient Sacred Body:" />
+          <CDivider />
+          <CList
+            list={[`Each attack is accompanied by a meteorite falling.`]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Blazing Sun Holy Body:" />
+          <CDivider />
+          <CList
+            list={[
+              `When its health drops below 30%, it will summon its avatar to aid in combat.`,
+            ]}
+          />
+        </div>
+        <div>
+          <CSubtitle label="Evil Yin Demon Body:" />
+          <CDivider />
+          <CList
+            list={[
+              `When its health drops below 50%, it will summon Shadow Knight, Shadow Chariot, and Shadow Bishop to assist in the battle.`,
+            ]}
+          />
+        </div>
+      </div>
     </div>
   );
 }
