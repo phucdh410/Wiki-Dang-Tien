@@ -77,30 +77,30 @@ export const CConsumptionRecovery = ({
   sanity,
 }: IConsumptionRecoveryProps) => {
   return (
-    <div className="flex flex-row gap-5 items-center">
-      <div className="flex flex-row items-center gap-1">
-        <span className="text-lg font-medium">{hunger}</span>
+    <div className="flex flex-row gap-5 items-center px-2">
+      <div className="flex flex-col items-center">
         <img
           src="https://static.wikia.nocookie.net/dont-starve-game/images/4/48/Hunger_Meter.png"
           alt=""
           className="max-w-7"
         />
+        <span className="font-medium">{hunger}</span>
       </div>
-      <div className="flex flex-row items-center gap-1">
-        <span className="text-lg font-medium">{sanity}</span>
+      <div className="flex flex-col items-center">
         <img
           src="https://static.wikia.nocookie.net/dont-starve-game/images/2/2f/Sanity_Meter.png"
           alt=""
           className="max-w-7"
         />
+        <span className="font-medium">{sanity}</span>
       </div>
-      <div className="flex flex-row items-center gap-1">
-        <span className="text-lg font-medium">{health}</span>
+      <div className="flex flex-col items-center">
         <img
           src="https://static.wikia.nocookie.net/dont-starve-game/images/f/f3/HealthMeter.png"
           alt=""
           className="max-w-7"
         />
+        <span className="font-medium">{health}</span>
       </div>
     </div>
   );
